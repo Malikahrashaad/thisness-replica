@@ -1,0 +1,294 @@
+html {
+	overflow-y: scroll; /* adds scroll bar to ensure that short and long pages are lined up equally */
+}
+
+body {
+	font-family: "News Cycle", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: bold;
+  padding: 20px;
+}
+
+p{
+	margin-top: 0;
+  margin-bottom: 1rem;
+	font-size: large;
+}
+
+.container{
+	padding:3rem 0;
+}
+
+a {
+	color: #dd2163;
+}
+
+a:focus, a:hover {
+	color: #3d1343;
+}
+
+hr {
+	border-width: 2px;
+	color: lightgrey;
+	margin: 0;
+}
+.form-control {
+	border: 2px solid lightgrey;
+	border-radius: auto;
+}
+
+.form-control:focus {
+	color: #464a4c;
+	background-color: white;
+	border-color: lightgrey;
+	outline-style: none;
+}
+
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::placeholder {
+	color: #636c72;
+	opacity: 1;
+}
+.form-control {
+	width:250px;
+	height:40px
+}
+
+/* Navigation bar */
+
+.navbar {
+	background: white;
+	border-bottom: 2px solid black;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 10px;
+}
+
+.navbar-toggler {
+	border-width: 2px;
+	border-color: black;
+	border-radius: 0;
+	margin-top: 4px;
+	margin-right: -10px;
+}
+
+.navbar-toggler:focus, .navbar-toggler.focus {
+	outline: none;
+}
+
+.navbar-toggler:active, .navbar-toggler.active {
+	background-color: lightgrey;
+}
+
+.navbar-collapse {
+	font-size: 20px;
+	margin-right: -8px;
+	margin-left: 650px
+}
+.logo{
+	width:100px;
+}
+
+.img-fluid.left{
+	margin-right: 500px;
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse {
+		text-align: center;
+		margin-top: -2.5px;
+		margin-bottom: 2.5px;
+	}
+	.navbar-collapse .nav-item {
+		border: 2px solid lightgrey;
+		margin-top: 2.5px;
+		margin-bottom: 2.5px;
+	}
+
+.nav-brand{
+   width= 125px;
+   height="";
+}
+
+ul.navbar-nav{
+	margin-left: auto;
+}
+
+.navbar-collapse {
+    font-size: 20px;
+		margin-left: 650px;
+		margin-right: -8px;
+}
+
+.text-center{
+  padding: 3rem 1.5rem;
+}
+.text-center p{
+	padding:1.5rem 0
+}
+
+.text-center h2{
+	padding-bottom:1.5rem
+}
+
+.row content-center{
+	padding-top:3rem
+}
+
+span.text{
+  color:#dd2163;
+}
+
+.body-feacture{
+  padding:3rem 0;
+}
+
+.img-fluid left{
+	margin-right: auto;
+}
+
+a:hover{
+	background-color:#dd2163;
+}
+
+button:hover{
+	background-color: white;
+}
+
+/* Footer */
+
+footer {
+	border-top: 2px solid #000;
+}
+
+footer a {
+	color: #000;
+}
+
+/* Home */
+
+.feature p {
+	font-size: large;
+}
+
+@media (max-width: 767px) {
+	.feature {
+		text-align: center;
+	}
+}
+
+.feature img {
+	border: 2px solid #e5e5e5;
+}
+
+.learn_more-link {
+	display: block;
+	position: relative;
+	border: 2px solid #dd2163;
+}
+
+.learn_more-link:hover {
+	background: rgba(221, 33, 99, 0.75);
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+
+.learn_more img {
+	opacity: .33;
+}
+
+.learn_more-text {
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+	.learn_more-item {
+		margin: 0 0 2rem;
+	}
+	.learn_more {
+		margin-bottom: -2rem;
+	}
+}
+
+/* Header images */
+
+.container-fluid {
+	position: relative;
+}
+
+.inner {
+	position: absolute;
+	left: 5%;
+}
+
+@media (max-width: 575px) {
+	.inner {
+		top: 21%;
+		font-size: 4vw;
+	}
+	.highlight {
+		box-shadow: 0.2rem 0 0 #dd2163, -0.2rem 0 0 #dd2163;
+	}
+}
+
+@media (min-width: 576px) {
+	.inner {
+		top: 19%;
+		font-size: 1.5rem;
+	}
+	.highlight {
+		box-shadow: 0.3rem 0 0 #dd2163, -0.3rem 0 0 #dd2163;
+	}
+}
+
+@media (min-width: 768px) {
+	.inner {
+		top: 19%;
+		font-size: 2rem;
+	}
+	.highlight {
+		box-shadow: 0.4rem 0 0 #dd2163, -0.4rem 0 0 #dd2163;
+	}
+}
+
+@media (min-width: 992px) {
+	.inner {
+		top: 21%;
+		font-size: 2.5rem;
+	}
+	.highlight {
+		box-shadow: 0.5rem 0 0 #dd2163, -0.5rem 0 0 #dd2163;
+	}
+}
+
+@media (min-width: 1200px) {
+	.inner {
+		top: 21%;
+		font-size: 3rem;
+	}
+	.highlight {
+		box-shadow: 0.6rem 0 0 #dd2163, -0.6rem 0 0 #dd2163;
+	}
+}
+
+.header_name {
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+	background: lightgrey;
+	text-align: center;
+}
